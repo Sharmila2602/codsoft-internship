@@ -1,0 +1,59 @@
+body{
+    margin:0;
+    padding:100px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+#box1{
+    width:500px;
+    padding-top:30px;
+    display:flex;
+    flex-direction: column;
+    background-color: rgb(68, 6, 101);
+    border-radius: 30px;
+    
+    
+    
+}
+
+#view{
+     width:80%;
+     background-color: rgb(76, 238, 111);
+     text-align:right;
+     padding:20px;
+     border-radius:20px;
+     color:white;
+     font-size:20px;
+     align-self:center;
+
+}
+.highlight{
+    color:red;
+    width:60px;
+    height:50px;
+    border-radius:50px;
+    border:none;
+    cursor:pointer;
+    font-size:20px;
+}
+#key{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:10px;
+    /* background-color: rgb(76, 76, 238); */
+    padding:20px;
+    width:500px;
+
+}
+.equal{
+    background-color:rgb(47, 223, 236);
+    border:none;
+    outline:none;
+}
+button{
+    border-radius:20px;
+}
+
+   
